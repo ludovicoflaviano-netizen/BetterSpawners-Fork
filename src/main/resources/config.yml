@@ -1,0 +1,27 @@
+settings:
+  production-interval-seconds: 5
+  max-upgrade-level: 10
+  max-stack: 64
+  require-vault: true
+  upgrade-base-cost: 50000.0
+  upgrade-cost-multiplier: 3.0
+  storage-base-capacity: 256
+  storage-capacity-per-level: 256
+upgrades:
+  yield:
+    output-multiplier-per-level: 0.20
+drops:
+  ZOMBIE: {ROTTEN_FLESH: 1-2}
+  SKELETON: {BONE: 1-2, ARROW: 0-2}
+  CREEPER: {GUNPOWDER: 1-2}
+  SPIDER: {STRING: 1-2, SPIDER_EYE: 0-1}
+  BLAZE: {BLAZE_ROD: 0-1}
+  ENDERMAN: {ENDER_PEARL: 0-1}
+  WITCH: {GUNPOWDER: 0-1, REDSTONE: 0-2}
+  PIG: {PORKCHOP: 1-3}
+  COW: {BEEF: 1-3, LEATHER: 0-2}
+  SHEEP: {MUTTON: 1-3, WHITE_WOOL: 0-1}
+  CHICKEN: {CHICKEN: 1-2, FEATHER: 0-2}
+  IRON_GOLEM: {IRON_INGOT: 2-5}
+  GUARDIAN: {PRISMARINE_SHARD: 0-2, PRISMARINE_CRYSTALS: 0-1}
+  SLIME: {SLIME_BALL: 1-3}
