@@ -1,0 +1,17 @@
+name: BetterSpawners-Fork
+version: 1.0.0
+main: net.ludovicoflaviano.bettersfp.BetterSpawnersPlugin
+api-version: '1.21'
+author: LudovicoFlaviano
+description: Modern virtual spawner and upgrade system for Paper 1.21.11.
+softdepend: [Vault, EconomyShopGUI, EconomyShopGUI-Premium]
+commands:
+  betterspawners:
+    aliases: [bs, bspawner]
+    description: BetterSpawners commands.
+permissions:
+  bettersf.admin: {default: op}
+  bettersf.use: {default: true}
+  bettersf.break: {default: true}
+  bettersf.place: {default: true}
+  bettersf.upgrade: {default: true}
